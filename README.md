@@ -36,7 +36,7 @@ A modern REST API backend built with FastAPI, featuring JWT authentication, role
 - **Message Queue:** Redis + Celery
 - **AI Model:** Hugging Face Transformers (facebook/bart-large-cnn)
 - **Containerization:** Docker + Docker Compose
-- **Deployment:** Render (API) + Upstash (Redis)
+- **Deployment:** Render (API & DB) + Upstash (Redis)
 
 ### System Components
 ```
