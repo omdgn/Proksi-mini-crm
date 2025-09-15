@@ -57,7 +57,7 @@ A modern REST API backend built with FastAPI, featuring JWT authentication, role
 
 ### Authentication
 ```http
-POST /auth/register    # User registration
+POST /auth/signup    # User registration
 POST /auth/login       # User login
 ```
 
@@ -116,7 +116,7 @@ celery -A celery_worker worker --loglevel=info
 
 ### 1. Register a User
 ```bash
-curl -X POST "https://proksi-mini-crm.onrender.com/auth/register" \
+curl -X POST "https://proksi-mini-crm.onrender.com/auth/signup" \
   -H "Content-Type: application/json" \
   -d '{
     "email": "test@example.com",
